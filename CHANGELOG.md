@@ -2,17 +2,38 @@
 
 ## [Unreleased]
 
+Add support for NXP's i.MX RT 1189 dual-core MCUs. An `"imxrt1189_cm33"` feature
+targets the Cortex-M33, and an `"imxrt1189_cm7"` feature targets the Cortex-M7.
+
+## [0.6.1] 2024-12-19
+
+Remove the following peripheral instances from the 1176 API. The base address
+for these instances is incorrectly `NULL`.
+
+- OSC_RC_400M
+- PHY_LDO
+- TMPSNS
+- VMBANDGAP
+
+The register blocks remain part of the API. Users who rely on these instances
+may still use `offset_of!` to compute addresses for indirect accesses.
+
+## [0.6.0] 2024-12-02
+
+**BREAKING** Remove the NVIC and SCB peripherals from the 1176. If you need an
+API for Cortex-M registers, check out the
+[`cortex-m`][https://crates.io/crates/cortex-m] crate.
+
+**BREAKING** The 1176 GPU2D interrupt is marked as reserved, and it's not
+available in the `Interrupt` enum.
+
+**BREAKING** In the 1176 API, there is only one SAI module. All SAI instances,
+including those that only have a single channel, now appear to support multiple
+channels. The user is responsible for making sure their SAI instance can
+truly support multiple channels.
+
 **BREAKING** The `flexio1` module is now called `flexio` for the 1010,
 1015, and 1020 families.
-
-Fix FlexIO register fields that describe pin counts, ensuring that they can
-represent the 32 pins available for FlexIO2 and FlexIO3. Note that this
-increases the field width for FlexIO1, even though this instance only supports
-16 pins. FlexIO1 users should take care to only access the lower four bits of
-such fields.
-
-Fix the FlexIO timer and shifter counts from four to eight, permitting access
-to all available components.
 
 **BREAKING** Rename LPI2C.SIER field "AM1F" to "AM1IE".
 
@@ -30,10 +51,59 @@ and correct the documentation.
 **BREAKING** Correct the name, documentation of the SNVS.LPCR field "LVD_EN" on
 the 1176.
 
+**BREAKING** Correct the symbols for most IOMUXC `*SELECT_INPUT*` enum variants.
+As a result of this change, symbols for IOMUXC `SW_MUX_CTL*` and `*SW_PAD_CTL*`
+enum variants may have also changed.
+
+**BREAKING** Remove deprecated items from the 0.5.1 release.
+
+Drop all register fields that are documented as "reserved" (first word of the
+description, all lowercase). Dropping these fields changes the combiner's
+approach for combining fieldsets, enabling correct documentation for non-
+reserved fields.
+
+Fix the documentation associated with IOMUXC field values.
+
+## [0.5.4] 2024-12-19
+
+See the 0.6.1 changelog entry.
+
+## [0.5.3] 2023-08-21
+
+Exclude the interrupt vector table when we're building for a target with an
+operating system. This ensures you can build imxrt-ral in different contexts,
+like build scripts.
+
+## [0.5.2] 2023-08-02
+
 Add missing register fields:
 
 - SERCLKDIV in FlexSPI MCR0.
 - FILT_PRSC in ENC FILT.
+
+## [0.5.1] 2023-07-03
+
+*Deprecated* The following items will be renamed in the next breaking release:
+
+| Deprecated item | New item             | Notes                          |
+| --------------- | -------------------- | -------------------------------|
+|   `flexio1`     | `flexio`             | 1010, 1015, and 1020 families. |
+|   `AM1F`        | `AM1IE`              | LPI2C.SIER field.              |
+|   `LOCKUP`      | `LOCKUP_SYSRESETREQ` | SRC.SRSR field.                |
+|   `FLEXIO1_*`   | `FLEXIO2_*`          | CCM.CS1CDR fields.             |
+|   `GPIO_SEL`    | `GPIO_MUX1_GPIO_SEL` | 1060 IOMUXC_GPR.GPR26 field.   |
+| `PWR_GLITCH_EN` | `LVD_EN`             | 1170 SNVS.LPCR field.          |
+
+Fix the TRNG peripheral block for the 1015, 1021 families.
+
+Fix FlexIO register fields that describe pin counts, ensuring that they can
+represent the 32 pins available for FlexIO2 and FlexIO3. Note that this
+increases the field width for FlexIO1, even though this instance only supports
+16 pins. FlexIO1 users should take care to only access the lower four bits of
+such fields.
+
+Fix the FlexIO timer and shifter counts from four to eight, permitting access
+to all available components.
 
 ## [0.5.0] 2022-12-27
 
@@ -170,7 +240,11 @@ This release also removes mention of 'stm32ral' in the API documentation.
 
 Initial build and release of imxrt family of peripheral access crates
 
-[Unreleased]: https://github.com/imxrt-rs/imxrt-ral/compare/0.5.0...HEAD
+[Unreleased]: https://github.com/imxrt-rs/imxrt-ral/compare/0.6.0...HEAD
+[0.6.0]: https://github.com/imxrt-rs/imxrt-ral/compare/0.5.3...0.6.0
+[0.5.3]: https://github.com/imxrt-rs/imxrt-ral/compare/0.5.2...0.5.3
+[0.5.2]: https://github.com/imxrt-rs/imxrt-ral/compare/0.5.1...0.5.2
+[0.5.1]: https://github.com/imxrt-rs/imxrt-ral/compare/0.5.0...0.5.1
 [0.5.0]: https://github.com/imxrt-rs/imxrt-ral/compare/0.4.4...0.5.0
 [0.4.4]: https://github.com/imxrt-rs/imxrt-ral/compare/0.4.3...0.4.4
 [0.4.3]: https://github.com/imxrt-rs/imxrt-ral/compare/0.4.2...0.4.3

@@ -966,15 +966,15 @@ pub mod SW_MUX_CTL_PAD_GPIO_EMC_04 {
         pub mod RW {
             #[doc = "Select mux mode: ALT0 mux port: SEMC_DATA04 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: XBAR1_INOUT04 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM4_PWMA02 of instance: flexpwm4"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: SPDIF_OUT of instance: spdif"]
+            #[doc = "Select mux mode: ALT2 mux port: SAI2_TX_DATA of instance: sai2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI2_TX_BCLK of instance: sai2"]
+            #[doc = "Select mux mode: ALT3 mux port: XBAR1_INOUT06 of instance: xbar1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO16 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO04 of instance: flexio1"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO2_IO04 of instance: gpio2"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO4_IO04 of instance: gpio4"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -1003,15 +1003,15 @@ pub mod SW_MUX_CTL_PAD_GPIO_EMC_05 {
         pub mod RW {
             #[doc = "Select mux mode: ALT0 mux port: SEMC_DATA05 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: XBAR1_INOUT05 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM4_PWMB02 of instance: flexpwm4"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: SPDIF_IN of instance: spdif"]
+            #[doc = "Select mux mode: ALT2 mux port: SAI2_TX_SYNC of instance: sai2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI2_TX_SYNC of instance: sai2"]
+            #[doc = "Select mux mode: ALT3 mux port: XBAR1_INOUT07 of instance: xbar1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO17 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO05 of instance: flexio1"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO2_IO05 of instance: gpio2"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO4_IO05 of instance: gpio4"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -1040,15 +1040,15 @@ pub mod SW_MUX_CTL_PAD_GPIO_EMC_06 {
         pub mod RW {
             #[doc = "Select mux mode: ALT0 mux port: SEMC_DATA06 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: XBAR1_INOUT06 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM2_PWMA00 of instance: flexpwm2"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART3_TX of instance: lpuart3"]
+            #[doc = "Select mux mode: ALT2 mux port: SAI2_TX_BCLK of instance: sai2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI2_TX_DATA of instance: sai2"]
+            #[doc = "Select mux mode: ALT3 mux port: XBAR1_INOUT08 of instance: xbar1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO18 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO06 of instance: flexio1"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO2_IO06 of instance: gpio2"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO4_IO06 of instance: gpio4"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -1077,15 +1077,15 @@ pub mod SW_MUX_CTL_PAD_GPIO_EMC_07 {
         pub mod RW {
             #[doc = "Select mux mode: ALT0 mux port: SEMC_DATA07 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: XBAR1_INOUT07 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM2_PWMB00 of instance: flexpwm2"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART3_RX of instance: lpuart3"]
+            #[doc = "Select mux mode: ALT2 mux port: SAI2_MCLK of instance: sai2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI2_RX_SYNC of instance: sai2"]
+            #[doc = "Select mux mode: ALT3 mux port: XBAR1_INOUT09 of instance: xbar1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO19 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO07 of instance: flexio1"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO2_IO07 of instance: gpio2"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO4_IO07 of instance: gpio4"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -1114,15 +1114,15 @@ pub mod SW_MUX_CTL_PAD_GPIO_EMC_08 {
         pub mod RW {
             #[doc = "Select mux mode: ALT0 mux port: SEMC_DM00 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: XBAR1_INOUT08 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM2_PWMA01 of instance: flexpwm2"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: FLEXCAN2_TX of instance: flexcan2"]
+            #[doc = "Select mux mode: ALT2 mux port: SAI2_RX_DATA of instance: sai2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI2_RX_DATA of instance: sai2"]
+            #[doc = "Select mux mode: ALT3 mux port: XBAR1_INOUT17 of instance: xbar1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO20 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO08 of instance: flexio1"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO2_IO08 of instance: gpio2"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO4_IO08 of instance: gpio4"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -1149,17 +1149,17 @@ pub mod SW_MUX_CTL_PAD_GPIO_EMC_09 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: SEMC_WE of instance: semc"]
+            #[doc = "Select mux mode: ALT0 mux port: SEMC_ADDR00 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: XBAR1_INOUT09 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM2_PWMB01 of instance: flexpwm2"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: FLEXCAN2_RX of instance: flexcan2"]
+            #[doc = "Select mux mode: ALT2 mux port: SAI2_RX_SYNC of instance: sai2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI2_RX_BCLK of instance: sai2"]
+            #[doc = "Select mux mode: ALT3 mux port: FLEXCAN2_TX of instance: flexcan2"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO21 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO09 of instance: flexio1"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO2_IO09 of instance: gpio2"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO4_IO09 of instance: gpio4"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -1482,19 +1482,19 @@ pub mod SW_MUX_CTL_PAD_GPIO_EMC_18 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: SEMC_ADDR02 of instance: semc"]
+            #[doc = "Select mux mode: ALT0 mux port: SEMC_ADDR09 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: XBAR1_INOUT16 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM4_PWMB03 of instance: flexpwm4"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPI2C2_SDA of instance: lpi2c2"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART4_RTS_B of instance: lpuart4"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_RX_SYNC of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: FLEXCAN1_RX of instance: flexcan1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO22 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: QTIMER3_TIMER3 of instance: qtimer3"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO2_IO18 of instance: gpio2"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO4_IO18 of instance: gpio4"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: SRC_BT_CFG00 of instance: src"]
+            #[doc = "Select mux mode: ALT6 mux port: SNVS_VIO_5_CTL of instance: snvs_hp"]
             pub const ALT6: u32 = 0x06;
         }
     }
@@ -1521,19 +1521,19 @@ pub mod SW_MUX_CTL_PAD_GPIO_EMC_19 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: SEMC_ADDR03 of instance: semc"]
+            #[doc = "Select mux mode: ALT0 mux port: SEMC_ADDR11 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: XBAR1_INOUT17 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM2_PWMA03 of instance: flexpwm2"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPI2C2_SCL of instance: lpi2c2"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART4_TX of instance: lpuart4"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_RX_BCLK of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: ENET_RDATA01 of instance: enet"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO23 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: QTIMER2_TIMER0 of instance: qtimer2"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO2_IO19 of instance: gpio2"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO4_IO19 of instance: gpio4"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: SRC_BT_CFG01 of instance: src"]
+            #[doc = "Select mux mode: ALT6 mux port: SNVS_VIO_5 of instance: snvs_hp"]
             pub const ALT6: u32 = 0x06;
         }
     }
@@ -2041,17 +2041,17 @@ pub mod SW_MUX_CTL_PAD_GPIO_EMC_33 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: SEMC_DATA09 of instance: semc"]
+            #[doc = "Select mux mode: ALT0 mux port: SEMC_DATA11 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: QTIMER1_TIMER1 of instance: qtimer1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM3_PWMA02 of instance: flexpwm3"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART4_RX of instance: lpuart4"]
+            #[doc = "Select mux mode: ALT2 mux port: USDHC1_RESET_B of instance: usdhc1"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI3_TX_BCLK of instance: sai3"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI3_RX_DATA of instance: sai3"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: LPSPI4_PCS0 of instance: lpspi4"]
+            #[doc = "Select mux mode: ALT4 mux port: CSI_DATA20 of instance: csi"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO01 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO19 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -2115,19 +2115,19 @@ pub mod SW_MUX_CTL_PAD_GPIO_EMC_35 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: SEMC_DATA11 of instance: semc"]
+            #[doc = "Select mux mode: ALT0 mux port: SEMC_DATA13 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: QTIMER1_TIMER3 of instance: qtimer1"]
+            #[doc = "Select mux mode: ALT1 mux port: XBAR1_INOUT18 of instance: xbar1"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART7_RX of instance: lpuart7"]
+            #[doc = "Select mux mode: ALT2 mux port: GPT1_COMPARE1 of instance: gpt1"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: USDHC2_WP of instance: usdhc2"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI3_RX_BCLK of instance: sai3"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: LPSPI4_SDI of instance: lpspi4"]
+            #[doc = "Select mux mode: ALT4 mux port: CSI_DATA18 of instance: csi"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO03 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO21 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: ENET_COL of instance: enet"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC1_CD_B of instance: usdhc1"]
             pub const ALT6: u32 = 0x06;
         }
     }
@@ -2511,21 +2511,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B0_03 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: JTAG_TDI of instance: jtag_mux"]
+            #[doc = "Select mux mode: ALT0 mux port: FLEXCAN2_RX of instance: flexcan2"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: USDHC2_CD_B of instance: usdhc2"]
+            #[doc = "Select mux mode: ALT1 mux port: XBAR1_INOUT17 of instance: xbar1"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: WDOG1_B of instance: wdog1"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART6_RX of instance: lpuart6"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_MCLK of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: USB_OTG1_OC of instance: usb"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: USDHC1_WP of instance: usdhc1"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXPWM1_PWMX01 of instance: flexpwm1"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO03 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: USB_OTG1_OC of instance: usb"]
+            #[doc = "Select mux mode: ALT6 mux port: REF_CLK_24M of instance: anatop"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: CCM_PMIC_RDY of instance: ccm"]
+            #[doc = "Select mux mode: ALT7 mux port: LPSPI3_PCS0 of instance: lpspi3"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -2552,21 +2552,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B0_04 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: JTAG_TDO of instance: jtag_mux"]
+            #[doc = "Select mux mode: ALT0 mux port: SRC_BOOT_MODE00 of instance: src"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXCAN1_TX of instance: flexcan1"]
+            #[doc = "Select mux mode: ALT1 mux port: MQS_RIGHT of instance: mqs"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: USDHC1_WP of instance: usdhc1"]
+            #[doc = "Select mux mode: ALT2 mux port: ENET_TX_DATA03 of instance: enet"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: QTIMER2_TIMER0 of instance: qtimer2"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI2_TX_SYNC of instance: sai2"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: ENET_MDIO of instance: enet"]
+            #[doc = "Select mux mode: ALT4 mux port: CSI_DATA09 of instance: csi"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO04 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: USB_OTG1_PWR of instance: usb"]
+            #[doc = "Select mux mode: ALT6 mux port: PIT_TRIGGER00 of instance: pit"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: EWM_OUT_B of instance: ewm"]
+            #[doc = "Select mux mode: ALT7 mux port: LPSPI3_PCS1 of instance: lpspi3"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -2593,21 +2593,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B0_05 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: JTAG_TRSTB of instance: jtag_mux"]
+            #[doc = "Select mux mode: ALT0 mux port: SRC_BOOT_MODE01 of instance: src"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXCAN1_RX of instance: flexcan1"]
+            #[doc = "Select mux mode: ALT1 mux port: MQS_LEFT of instance: mqs"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: USDHC1_CD_B of instance: usdhc1"]
+            #[doc = "Select mux mode: ALT2 mux port: ENET_TX_DATA02 of instance: enet"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: QTIMER2_TIMER1 of instance: qtimer2"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI2_TX_BCLK of instance: sai2"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: ENET_MDC of instance: enet"]
+            #[doc = "Select mux mode: ALT4 mux port: CSI_DATA08 of instance: csi"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO05 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: USB_OTG1_ID of instance: anatop"]
+            #[doc = "Select mux mode: ALT6 mux port: XBAR1_INOUT17 of instance: xbar1"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: NMI_GLUE_NMI of instance: nmi_glue"]
+            #[doc = "Select mux mode: ALT7 mux port: LPSPI3_PCS2 of instance: lpspi3"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -2880,21 +2880,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B0_12 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: ENET_RX_ER of instance: enet"]
+            #[doc = "Select mux mode: ALT0 mux port: LPI2C4_SCL of instance: lpi2c4"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: LPSPI1_SDO of instance: lpspi1"]
+            #[doc = "Select mux mode: ALT1 mux port: CCM_PMIC_READY of instance: ccm"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART3_CTS_B of instance: lpuart3"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART1_TX of instance: lpuart1"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: KPP_COL02 of instance: kpp"]
+            #[doc = "Select mux mode: ALT3 mux port: WDOG2_WDOG_B of instance: wdog2"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXPWM2_PWMA01 of instance: flexpwm2"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXPWM1_PWMX02 of instance: flexpwm1"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO12 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: ARM_CM7_TRACE00 of instance: cm7_mxrt"]
+            #[doc = "Select mux mode: ALT6 mux port: ENET_1588_EVENT1_OUT of instance: enet"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: SNVS_HP_VIO_5_CTL of instance: snvs_hp"]
+            #[doc = "Select mux mode: ALT7 mux port: NMI_GLUE_NMI of instance: nmi_glue"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -2921,21 +2921,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B0_13 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: ENET_TX_EN of instance: enet"]
+            #[doc = "Select mux mode: ALT0 mux port: LPI2C4_SDA of instance: lpi2c4"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: LPSPI1_SDI of instance: lpspi1"]
+            #[doc = "Select mux mode: ALT1 mux port: GPT1_CLK of instance: gpt1"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART3_RTS_B of instance: lpuart3"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART1_RX of instance: lpuart1"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: KPP_ROW02 of instance: kpp"]
+            #[doc = "Select mux mode: ALT3 mux port: EWM_OUT_B of instance: ewm"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXPWM2_PWMB01 of instance: flexpwm2"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXPWM1_PWMX03 of instance: flexpwm1"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO13 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: ARM_CM7_TRACE01 of instance: cm7_mxrt"]
+            #[doc = "Select mux mode: ALT6 mux port: ENET_1588_EVENT1_IN of instance: enet"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: SNVS_HP_VIO_5_B of instance: snvs_hp"]
+            #[doc = "Select mux mode: ALT7 mux port: REF_CLK_24M of instance: anatop"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -3042,21 +3042,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B1_00 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: SEMC_READY of instance: semc"]
+            #[doc = "Select mux mode: ALT0 mux port: USB_OTG2_ID of instance: anatop"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_A_DATA03 of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: QTIMER3_TIMER0 of instance: qtimer3"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: FLEXCAN2_TX of instance: flexcan2"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART2_CTS_B of instance: lpuart2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_MCLK of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: LPI2C1_SCL of instance: lpi2c1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO15 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: WDOG1_B of instance: wdog1"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO16 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: ENET_1588_EVENT2_OUT of instance: enet"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC1_WP of instance: usdhc1"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: KPP_COL04 of instance: kpp"]
+            #[doc = "Select mux mode: ALT7 mux port: KPP_ROW07 of instance: kpp"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -3083,21 +3083,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B1_01 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: SEMC_CSX00 of instance: semc"]
+            #[doc = "Select mux mode: ALT0 mux port: USB_OTG1_PWR of instance: usb"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_A_SCLK of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: QTIMER3_TIMER1 of instance: qtimer3"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: FLEXCAN2_RX of instance: flexcan2"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART2_RTS_B of instance: lpuart2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_BCLK of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: LPI2C1_SDA of instance: lpi2c1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO14 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: CCM_PMIC_READY of instance: ccm"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO17 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: ENET_1588_EVENT2_IN of instance: enet"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC1_VSELECT of instance: usdhc1"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: KPP_ROW04 of instance: kpp"]
+            #[doc = "Select mux mode: ALT7 mux port: KPP_COL07 of instance: kpp"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -3124,21 +3124,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B1_02 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: SEMC_CSX01 of instance: semc"]
+            #[doc = "Select mux mode: ALT0 mux port: USB_OTG1_ID of instance: anatop"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_A_DATA00 of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: QTIMER3_TIMER2 of instance: qtimer3"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPSPI4_SCK of instance: lpspi4"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART2_TX of instance: lpuart2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_SYNC of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: SPDIF_OUT of instance: spdif"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO13 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: ENET_1588_EVENT2_OUT of instance: enet"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO18 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: ENET_1588_EVENT3_OUT of instance: enet"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC1_CD_B of instance: usdhc1"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: KPP_COL05 of instance: kpp"]
+            #[doc = "Select mux mode: ALT7 mux port: KPP_ROW06 of instance: kpp"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -3165,21 +3165,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B1_03 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: SEMC_CSX02 of instance: semc"]
+            #[doc = "Select mux mode: ALT0 mux port: USB_OTG1_OC of instance: usb"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_A_DATA02 of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: QTIMER3_TIMER3 of instance: qtimer3"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPSPI4_PCS0 of instance: lpspi4"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART2_RX of instance: lpuart2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_DATA00 of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: SPDIF_IN of instance: spdif"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO12 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: ENET_1588_EVENT2_IN of instance: enet"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO19 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: ENET_1588_EVENT3_IN of instance: enet"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC2_CD_B of instance: usdhc2"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: KPP_ROW05 of instance: kpp"]
+            #[doc = "Select mux mode: ALT7 mux port: KPP_COL06 of instance: kpp"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -3206,21 +3206,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B1_04 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: SEMC_CSX03 of instance: semc"]
+            #[doc = "Select mux mode: ALT0 mux port: FLEXSPIB_DATA03 of instance: flexspi"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_A_DATA01 of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: ENET_MDC of instance: enet"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPSPI4_SDO of instance: lpspi4"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART3_CTS_B of instance: lpuart3"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_RX_SYNC of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: SPDIF_SR_CLK of instance: spdif"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO11 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: CSI_PIXCLK of instance: csi"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO20 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: LPSPI1_PCS1 of instance: lpspi1"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC2_DATA0 of instance: usdhc2"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: KPP_COL06 of instance: kpp"]
+            #[doc = "Select mux mode: ALT7 mux port: KPP_ROW05 of instance: kpp"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -3247,21 +3247,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B1_05 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC1_WP of instance: usdhc1"]
+            #[doc = "Select mux mode: ALT0 mux port: FLEXSPIB_DATA02 of instance: flexspi"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_A_SS0_B of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: ENET_MDIO of instance: enet"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPSPI4_SDI of instance: lpspi4"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART3_RTS_B of instance: lpuart3"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_RX_DATA00 of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: SPDIF_OUT of instance: spdif"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO10 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: CSI_MCLK of instance: csi"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO21 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: LPSPI1_PCS2 of instance: lpspi1"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC2_DATA1 of instance: usdhc2"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: KPP_ROW06 of instance: kpp"]
+            #[doc = "Select mux mode: ALT7 mux port: KPP_COL05 of instance: kpp"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -3288,21 +3288,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B1_06 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC1_RESET_B of instance: usdhc1"]
+            #[doc = "Select mux mode: ALT0 mux port: FLEXSPIB_DATA01 of instance: flexspi"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM1_PWMA00 of instance: flexpwm1"]
+            #[doc = "Select mux mode: ALT1 mux port: LPI2C3_SDA of instance: lpi2c3"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART2_CTS_B of instance: lpuart2"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART3_TX of instance: lpuart3"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_RX_BCLK of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: SPDIF_LOCK of instance: spdif"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO09 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: CSI_VSYNC of instance: csi"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO22 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: LPSPI1_PCS3 of instance: lpspi1"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC2_DATA2 of instance: usdhc2"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: KPP_COL07 of instance: kpp"]
+            #[doc = "Select mux mode: ALT7 mux port: KPP_ROW04 of instance: kpp"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -3329,21 +3329,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B1_07 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC1_VSELECT of instance: usdhc1"]
+            #[doc = "Select mux mode: ALT0 mux port: FLEXSPIB_DATA00 of instance: flexspi"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM1_PWMB00 of instance: flexpwm1"]
+            #[doc = "Select mux mode: ALT1 mux port: LPI2C3_SCL of instance: lpi2c3"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART2_RTS_B of instance: lpuart2"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART3_RX of instance: lpuart3"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_DATA01 of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: SPDIF_EXT_CLK of instance: spdif"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO08 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: CSI_HSYNC of instance: csi"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO23 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: LPSPI3_PCS3 of instance: lpspi3"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC2_DATA3 of instance: usdhc2"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: KPP_ROW07 of instance: kpp"]
+            #[doc = "Select mux mode: ALT7 mux port: KPP_COL04 of instance: kpp"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -3370,21 +3370,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B1_08 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: LPI2C2_SCL of instance: lpi2c2"]
+            #[doc = "Select mux mode: ALT0 mux port: FLEXSPIA_SS1_B of instance: flexspi"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM1_PWMA01 of instance: flexpwm1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM4_PWMA00 of instance: flexpwm4"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART2_TX of instance: lpuart2"]
+            #[doc = "Select mux mode: ALT2 mux port: FLEXCAN1_TX of instance: flexcan1"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_DATA02 of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: CCM_PMIC_READY of instance: ccm"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO07 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: CSI_DATA09 of instance: csi"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO24 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: LPSPI3_PCS2 of instance: lpspi3"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC2_CMD of instance: usdhc2"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: XBAR1_INOUT12 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT7 mux port: KPP_ROW03 of instance: kpp"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -3411,21 +3411,21 @@ pub mod SW_MUX_CTL_PAD_GPIO_AD_B1_09 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: LPI2C2_SDA of instance: lpi2c2"]
+            #[doc = "Select mux mode: ALT0 mux port: FLEXSPIA_DQS of instance: flexspi"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM1_PWMB01 of instance: flexpwm1"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM4_PWMA01 of instance: flexpwm4"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART2_RX of instance: lpuart2"]
+            #[doc = "Select mux mode: ALT2 mux port: FLEXCAN1_RX of instance: flexcan1"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_DATA03 of instance: sai1"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI1_MCLK of instance: sai1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXIO1_FLEXIO06 of instance: flexio1"]
+            #[doc = "Select mux mode: ALT4 mux port: CSI_DATA08 of instance: csi"]
             pub const ALT4: u32 = 0x04;
             #[doc = "Select mux mode: ALT5 mux port: GPIO1_IO25 of instance: gpio1"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: LPSPI3_PCS1 of instance: lpspi3"]
+            #[doc = "Select mux mode: ALT6 mux port: USDHC2_CLK of instance: usdhc2"]
             pub const ALT6: u32 = 0x06;
-            #[doc = "Select mux mode: ALT7 mux port: XBAR1_INOUT13 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT7 mux port: KPP_COL03 of instance: kpp"]
             pub const ALT7: u32 = 0x07;
         }
     }
@@ -5088,19 +5088,19 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B0_04 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC1_DATA0 of instance: usdhc1"]
+            #[doc = "Select mux mode: ALT0 mux port: USDHC1_DATA2 of instance: usdhc1"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXCAN2_TX of instance: flexcan2"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM1_PWMA02 of instance: flexpwm1"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART7_TX of instance: lpuart7"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART8_TX of instance: lpuart8"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI2_TX_DATA of instance: sai2"]
+            #[doc = "Select mux mode: ALT3 mux port: XBAR1_INOUT08 of instance: xbar1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: LPSPI1_SDO of instance: lpspi1"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXSPIB_SS0_B of instance: flexspi"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO17 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO16 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: FLEXSPI_B_SS0_B of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT6 mux port: CCM_CLKO1 of instance: ccm"]
             pub const ALT6: u32 = 0x06;
         }
     }
@@ -5127,19 +5127,19 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B0_05 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC1_DATA1 of instance: usdhc1"]
+            #[doc = "Select mux mode: ALT0 mux port: USDHC1_DATA3 of instance: usdhc1"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXCAN2_RX of instance: flexcan2"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXPWM1_PWMB02 of instance: flexpwm1"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART7_RX of instance: lpuart7"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART8_RX of instance: lpuart8"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI2_TX_BCLK of instance: sai2"]
+            #[doc = "Select mux mode: ALT3 mux port: XBAR1_INOUT09 of instance: xbar1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: LPSPI1_SDI of instance: lpspi1"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXSPIB_DQS of instance: flexspi"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO18 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO17 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: FLEXSPI_B_DQS of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT6 mux port: CCM_CLKO2 of instance: ccm"]
             pub const ALT6: u32 = 0x06;
         }
     }
@@ -5166,17 +5166,17 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B1_00 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC2_DATA2 of instance: usdhc2"]
+            #[doc = "Select mux mode: ALT0 mux port: USDHC2_DATA3 of instance: usdhc2"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_B_DATA03 of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXSPIB_DATA03 of instance: flexspi"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART6_TX of instance: lpuart6"]
+            #[doc = "Select mux mode: ALT2 mux port: FLEXPWM1_PWMA03 of instance: flexpwm1"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: XBAR1_INOUT10 of instance: xbar1"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_DATA03 of instance: sai1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXCAN1_TX of instance: flexcan1"]
+            #[doc = "Select mux mode: ALT4 mux port: LPUART4_TX of instance: lpuart4"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO20 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO00 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -5203,17 +5203,17 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B1_01 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC2_DATA3 of instance: usdhc2"]
+            #[doc = "Select mux mode: ALT0 mux port: USDHC2_DATA2 of instance: usdhc2"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_B_SCLK of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXSPIB_DATA02 of instance: flexspi"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART6_RX of instance: lpuart6"]
+            #[doc = "Select mux mode: ALT2 mux port: FLEXPWM1_PWMB03 of instance: flexpwm1"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: FLEXSPI_A_SS1_B of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_DATA02 of instance: sai1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: FLEXCAN1_RX of instance: flexcan1"]
+            #[doc = "Select mux mode: ALT4 mux port: LPUART4_RX of instance: lpuart4"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO21 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO01 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -5240,19 +5240,19 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B1_02 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC2_CMD of instance: usdhc2"]
+            #[doc = "Select mux mode: ALT0 mux port: USDHC2_DATA1 of instance: usdhc2"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_B_DATA00 of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXSPIB_DATA01 of instance: flexspi"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART8_TX of instance: lpuart8"]
+            #[doc = "Select mux mode: ALT2 mux port: FLEXPWM2_PWMA03 of instance: flexpwm2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: LPI2C4_SCL of instance: lpi2c4"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_DATA01 of instance: sai1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: ENET_1588_EVENT1_OUT of instance: enet"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXCAN1_TX of instance: flexcan1"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO22 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO02 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: CCM_CLKO1 of instance: ccm"]
+            #[doc = "Select mux mode: ALT6 mux port: CCM_WAIT of instance: ccm"]
             pub const ALT6: u32 = 0x06;
         }
     }
@@ -5279,19 +5279,19 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B1_03 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC2_CLK of instance: usdhc2"]
+            #[doc = "Select mux mode: ALT0 mux port: USDHC2_DATA0 of instance: usdhc2"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_B_DATA02 of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXSPIB_DATA00 of instance: flexspi"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: LPUART8_RX of instance: lpuart8"]
+            #[doc = "Select mux mode: ALT2 mux port: FLEXPWM2_PWMB03 of instance: flexpwm2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: LPI2C4_SDA of instance: lpi2c4"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI1_MCLK of instance: sai1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: ENET_1588_EVENT1_IN of instance: enet"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXCAN1_RX of instance: flexcan1"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO23 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO03 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: CCM_CLKO2 of instance: ccm"]
+            #[doc = "Select mux mode: ALT6 mux port: CCM_PMIC_READY of instance: ccm"]
             pub const ALT6: u32 = 0x06;
         }
     }
@@ -5318,19 +5318,19 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B1_04 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC2_DATA0 of instance: usdhc2"]
+            #[doc = "Select mux mode: ALT0 mux port: USDHC2_CLK of instance: usdhc2"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_B_DATA01 of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXSPIB_SCLK of instance: flexspi"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: ENET_TX_CLK of instance: enet"]
+            #[doc = "Select mux mode: ALT2 mux port: LPI2C1_SCL of instance: lpi2c1"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: ENET_REF_CLK1 of instance: enet"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI1_RX_SYNC of instance: sai1"]
             pub const ALT3: u32 = 0x03;
-            #[doc = "Select mux mode: ALT4 mux port: EWM_OUT_B of instance: ewm"]
+            #[doc = "Select mux mode: ALT4 mux port: FLEXSPIA_SS1_B of instance: flexspi"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO24 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO04 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
-            #[doc = "Select mux mode: ALT6 mux port: CCM_WAIT of instance: ccm"]
+            #[doc = "Select mux mode: ALT6 mux port: CCM_STOP of instance: ccm"]
             pub const ALT6: u32 = 0x06;
         }
     }
@@ -5431,17 +5431,17 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B1_07 {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Select mux mode: ALT0 mux port: USDHC2_RESET_B of instance: usdhc2"]
+            #[doc = "Select mux mode: ALT0 mux port: SEMC_CSX01 of instance: semc"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_A_SCLK of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXSPIA_SCLK of instance: flexspi"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: ENET_RX_EN of instance: enet"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART7_RTS_B of instance: lpuart7"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI3_TX_SYNC of instance: sai3"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_DATA00 of instance: sai1"]
             pub const ALT3: u32 = 0x03;
             #[doc = "Select mux mode: ALT4 mux port: LPSPI2_SCK of instance: lpspi2"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO27 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO07 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -5509,15 +5509,15 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B1_09 {
         pub mod RW {
             #[doc = "Select mux mode: ALT0 mux port: USDHC2_DATA5 of instance: usdhc2"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_A_DATA02 of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXSPIA_DATA01 of instance: flexspi"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: ENET_TX_EN of instance: enet"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART7_RX of instance: lpuart7"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI3_RX_BCLK of instance: sai3"]
+            #[doc = "Select mux mode: ALT3 mux port: SAI1_TX_SYNC of instance: sai1"]
             pub const ALT3: u32 = 0x03;
             #[doc = "Select mux mode: ALT4 mux port: LPSPI2_SDI of instance: lpspi2"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO29 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO09 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -5546,15 +5546,15 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B1_10 {
         pub mod RW {
             #[doc = "Select mux mode: ALT0 mux port: USDHC2_DATA6 of instance: usdhc2"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_A_DATA01 of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXSPIA_DATA02 of instance: flexspi"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: ENET_TDATA00 of instance: enet"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART2_RX of instance: lpuart2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI3_RX_SYNC of instance: sai3"]
+            #[doc = "Select mux mode: ALT3 mux port: LPI2C2_SDA of instance: lpi2c2"]
             pub const ALT3: u32 = 0x03;
             #[doc = "Select mux mode: ALT4 mux port: LPSPI2_PCS2 of instance: lpspi2"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO30 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO10 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -5583,15 +5583,15 @@ pub mod SW_MUX_CTL_PAD_GPIO_SD_B1_11 {
         pub mod RW {
             #[doc = "Select mux mode: ALT0 mux port: USDHC2_DATA7 of instance: usdhc2"]
             pub const ALT0: u32 = 0;
-            #[doc = "Select mux mode: ALT1 mux port: FLEXSPI_A_SS0_B of instance: flexspi_bus2bit"]
+            #[doc = "Select mux mode: ALT1 mux port: FLEXSPIA_DATA03 of instance: flexspi"]
             pub const ALT1: u32 = 0x01;
-            #[doc = "Select mux mode: ALT2 mux port: ENET_TDATA01 of instance: enet"]
+            #[doc = "Select mux mode: ALT2 mux port: LPUART2_TX of instance: lpuart2"]
             pub const ALT2: u32 = 0x02;
-            #[doc = "Select mux mode: ALT3 mux port: SAI3_RX_DATA of instance: sai3"]
+            #[doc = "Select mux mode: ALT3 mux port: LPI2C2_SCL of instance: lpi2c2"]
             pub const ALT3: u32 = 0x03;
             #[doc = "Select mux mode: ALT4 mux port: LPSPI2_PCS3 of instance: lpspi2"]
             pub const ALT4: u32 = 0x04;
-            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO31 of instance: gpio3"]
+            #[doc = "Select mux mode: ALT5 mux port: GPIO3_IO11 of instance: gpio3"]
             pub const ALT5: u32 = 0x05;
         }
     }
@@ -5632,9 +5632,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_00 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -5657,13 +5657,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_00 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -5759,9 +5759,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_01 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -5784,13 +5784,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_01 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -5886,9 +5886,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_02 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -5911,13 +5911,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_02 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -6013,9 +6013,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_03 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -6038,13 +6038,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_03 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -6140,9 +6140,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_04 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -6165,13 +6165,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_04 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -6267,9 +6267,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_05 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -6292,13 +6292,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_05 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -6394,9 +6394,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_06 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -6419,13 +6419,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_06 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -6521,9 +6521,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_07 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -6546,13 +6546,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_07 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -6648,9 +6648,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_08 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -6673,13 +6673,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_08 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -6775,9 +6775,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_09 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -6800,13 +6800,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_09 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -6902,9 +6902,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_10 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -6927,13 +6927,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_10 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -7029,9 +7029,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_11 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -7054,13 +7054,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_11 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -7156,9 +7156,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_12 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -7181,13 +7181,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_12 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -7283,9 +7283,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_13 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -7308,13 +7308,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_13 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -7410,9 +7410,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_14 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -7435,13 +7435,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_14 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -7537,9 +7537,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_15 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -7562,13 +7562,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_15 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -7664,9 +7664,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_16 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -7689,13 +7689,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_16 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -7791,9 +7791,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_17 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -7816,13 +7816,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_17 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -7918,9 +7918,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_18 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -7943,13 +7943,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_18 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -8045,9 +8045,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_19 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -8070,13 +8070,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_19 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -8172,9 +8172,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_20 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -8197,13 +8197,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_20 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -8299,9 +8299,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_21 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -8324,13 +8324,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_21 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -8426,9 +8426,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_22 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -8451,13 +8451,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_22 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -8553,9 +8553,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_23 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -8578,13 +8578,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_23 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -8680,9 +8680,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_24 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -8705,13 +8705,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_24 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -8807,9 +8807,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_25 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -8832,13 +8832,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_25 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -8934,9 +8934,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_26 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -8959,13 +8959,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_26 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -9061,9 +9061,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_27 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -9086,13 +9086,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_27 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -9188,9 +9188,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_28 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -9213,13 +9213,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_28 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -9315,9 +9315,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_29 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -9340,13 +9340,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_29 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -9442,9 +9442,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_30 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -9467,13 +9467,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_30 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -9569,9 +9569,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_31 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -9594,13 +9594,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_31 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -9696,9 +9696,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_32 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -9721,13 +9721,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_32 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -9823,9 +9823,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_33 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -9848,13 +9848,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_33 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -9950,9 +9950,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_34 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -9975,13 +9975,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_34 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -10077,9 +10077,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_35 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -10102,13 +10102,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_35 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -10204,9 +10204,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_36 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -10229,13 +10229,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_36 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -10331,9 +10331,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_37 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -10356,13 +10356,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_37 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -10458,9 +10458,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_38 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -10483,13 +10483,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_38 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -10585,9 +10585,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_39 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -10610,13 +10610,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_39 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -10712,9 +10712,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_40 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -10737,13 +10737,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_40 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -10839,9 +10839,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_41 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -10864,13 +10864,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_EMC_41 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -10966,9 +10966,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_00 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -10991,13 +10991,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_00 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -11093,9 +11093,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_01 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -11118,13 +11118,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_01 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -11220,9 +11220,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_02 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -11245,13 +11245,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_02 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -11347,9 +11347,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_03 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -11372,13 +11372,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_03 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -11474,9 +11474,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_04 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -11499,13 +11499,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_04 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -11601,9 +11601,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_05 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -11626,13 +11626,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_05 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -11728,9 +11728,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_06 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -11753,13 +11753,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_06 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -11855,9 +11855,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_07 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -11880,13 +11880,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_07 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -11982,9 +11982,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_08 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -12007,13 +12007,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_08 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -12109,9 +12109,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_09 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -12134,13 +12134,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_09 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -12236,9 +12236,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_10 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -12261,13 +12261,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_10 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -12363,9 +12363,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_11 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -12388,13 +12388,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_11 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -12490,9 +12490,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_12 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -12515,13 +12515,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_12 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -12617,9 +12617,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_13 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -12642,13 +12642,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_13 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -12744,9 +12744,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_14 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -12769,13 +12769,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_14 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -12871,9 +12871,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_15 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -12896,13 +12896,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B0_15 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -12998,9 +12998,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_00 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -13023,13 +13023,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_00 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -13125,9 +13125,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_01 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -13150,13 +13150,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_01 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -13252,9 +13252,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_02 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -13277,13 +13277,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_02 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -13379,9 +13379,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_03 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -13404,13 +13404,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_03 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -13506,9 +13506,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_04 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -13531,13 +13531,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_04 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -13633,9 +13633,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_05 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -13658,13 +13658,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_05 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -13760,9 +13760,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_06 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -13785,13 +13785,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_06 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -13887,9 +13887,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_07 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -13912,13 +13912,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_07 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -14014,9 +14014,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_08 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -14039,13 +14039,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_08 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -14141,9 +14141,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_09 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -14166,13 +14166,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_09 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -14268,9 +14268,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_10 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -14293,13 +14293,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_10 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -14395,9 +14395,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_11 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -14420,13 +14420,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_11 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -14522,9 +14522,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_12 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -14547,13 +14547,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_12 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -14649,9 +14649,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_13 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -14674,13 +14674,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_13 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -14776,9 +14776,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_14 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -14801,13 +14801,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_14 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -14903,9 +14903,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_15 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -14928,13 +14928,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_AD_B1_15 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -19094,9 +19094,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_00 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -19119,13 +19119,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_00 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -19221,9 +19221,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_01 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -19246,13 +19246,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_01 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -19348,9 +19348,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_02 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -19373,13 +19373,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_02 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -19475,9 +19475,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_03 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -19500,13 +19500,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_03 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -19602,9 +19602,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_04 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -19627,13 +19627,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_04 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -19729,9 +19729,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_05 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -19754,13 +19754,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B0_05 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -19856,9 +19856,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_00 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -19881,13 +19881,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_00 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -19983,9 +19983,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_01 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -20008,13 +20008,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_01 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -20110,9 +20110,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_02 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -20135,13 +20135,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_02 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -20237,9 +20237,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_03 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -20262,13 +20262,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_03 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -20364,9 +20364,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_04 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -20389,13 +20389,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_04 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -20491,9 +20491,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_05 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -20516,13 +20516,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_05 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -20618,9 +20618,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_06 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -20643,13 +20643,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_06 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -20745,9 +20745,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_07 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -20770,13 +20770,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_07 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -20872,9 +20872,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_08 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -20897,13 +20897,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_08 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -20999,9 +20999,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_09 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -21024,13 +21024,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_09 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -21126,9 +21126,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_10 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -21151,13 +21151,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_10 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -21253,9 +21253,9 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_11 {
         pub mod W {}
         pub mod RW {
             #[doc = "output driver disabled;"]
-            pub const DSE_0_OUTPUT_DRIVER_DISABLED_: u32 = 0;
+            pub const DSE_0_OUTPUT_DRIVER_DISABLED: u32 = 0;
             #[doc = "R0(150 Ohm @ 3.3V, 260 Ohm@1.8V)"]
-            pub const DSE_1_R0_150_OHM___3_3V__260_OHM_1_8V: u32 = 0x01;
+            pub const DSE_1_R0_150_OHM_3_3V_260_OHM_1_8V: u32 = 0x01;
             #[doc = "R0/2"]
             pub const DSE_2_R0_2: u32 = 0x02;
             #[doc = "R0/3"]
@@ -21278,13 +21278,13 @@ pub mod SW_PAD_CTL_PAD_GPIO_SD_B1_11 {
         pub mod W {}
         pub mod RW {
             #[doc = "low(50MHz)"]
-            pub const SPEED_0_LOW_50MHZ_: u32 = 0;
+            pub const SPEED_0_LOW_50MHZ: u32 = 0;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_1_MEDIUM_100MHZ_: u32 = 0x01;
+            pub const SPEED_1_MEDIUM_100MHZ: u32 = 0x01;
             #[doc = "medium(100MHz)"]
-            pub const SPEED_2_MEDIUM_100MHZ_: u32 = 0x02;
+            pub const SPEED_2_MEDIUM_100MHZ: u32 = 0x02;
             #[doc = "max(200MHz)"]
-            pub const SPEED_3_MAX_200MHZ_: u32 = 0x03;
+            pub const SPEED_3_MAX_200MHZ: u32 = 0x03;
         }
     }
     #[doc = "Open Drain Enable Field"]
@@ -21616,12 +21616,12 @@ pub mod ENET_MDIO_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_02 for Mode: ALT6"]
-            pub const GPIO_SD_B0_02_ALT6: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_AD_B0_04 for Mode: ALT4"]
-            pub const GPIO_AD_B0_04_ALT4: u32 = 0x01;
-            #[doc = "Selecting Pad: GPIO_EMC_40 for Mode: ALT4"]
-            pub const GPIO_EMC_40_ALT4: u32 = 0x02;
+            #[doc = "Selecting Pad: GPIO_AD_B1_05 for Mode: ALT1"]
+            pub const GPIO_AD_B1_05_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_EMC_41 for Mode: ALT4"]
+            pub const GPIO_EMC_41_ALT4: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B1_15 for Mode: ALT0"]
+            pub const GPIO_B1_15_ALT0: u32 = 0x02;
         }
     }
 }
@@ -21732,14 +21732,14 @@ pub mod FLEXCAN1_RX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_01 for Mode: ALT6"]
-            pub const GPIO_EMC_01_ALT6: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_B1_01 for Mode: ALT4"]
-            pub const GPIO_SD_B1_01_ALT4: u32 = 0x01;
-            #[doc = "Selecting Pad: GPIO_AD_B0_05 for Mode: ALT1"]
-            pub const GPIO_AD_B0_05_ALT1: u32 = 0x02;
-            #[doc = "Selecting Pad: GPIO_EMC_15 for Mode: ALT6"]
-            pub const GPIO_EMC_15_ALT6: u32 = 0x03;
+            #[doc = "Selecting Pad: GPIO_SD_B1_03 for Mode: ALT4"]
+            pub const GPIO_SD_B1_03_ALT4: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_EMC_18 for Mode: ALT3"]
+            pub const GPIO_EMC_18_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_AD_B1_09 for Mode: ALT2"]
+            pub const GPIO_AD_B1_09_ALT2: u32 = 0x02;
+            #[doc = "Selecting Pad: GPIO_B0_03 for Mode: ALT2"]
+            pub const GPIO_B0_03_ALT2: u32 = 0x03;
         }
     }
 }
@@ -21752,14 +21752,14 @@ pub mod FLEXCAN2_RX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_05 for Mode: ALT1"]
-            pub const GPIO_SD_B0_05_ALT1: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_09 for Mode: ALT2"]
-            pub const GPIO_EMC_09_ALT2: u32 = 0x01;
-            #[doc = "Selecting Pad: GPIO_AD_B0_15 for Mode: ALT1"]
-            pub const GPIO_AD_B0_15_ALT1: u32 = 0x02;
-            #[doc = "Selecting Pad: GPIO_AD_B1_01 for Mode: ALT2"]
-            pub const GPIO_AD_B1_01_ALT2: u32 = 0x03;
+            #[doc = "Selecting Pad: GPIO_EMC_10 for Mode: ALT3"]
+            pub const GPIO_EMC_10_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_03 for Mode: ALT0"]
+            pub const GPIO_AD_B0_03_ALT0: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_AD_B0_15 for Mode: ALT6"]
+            pub const GPIO_AD_B0_15_ALT6: u32 = 0x02;
+            #[doc = "Selecting Pad: GPIO_B1_09 for Mode: ALT6"]
+            pub const GPIO_B1_09_ALT6: u32 = 0x03;
         }
     }
 }
@@ -21794,10 +21794,10 @@ pub mod FLEXPWM1_PWMA0_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_06 for Mode: ALT1"]
-            pub const GPIO_AD_B1_06_ALT1: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_26 for Mode: ALT1"]
-            pub const GPIO_EMC_26_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_23 for Mode: ALT1"]
+            pub const GPIO_EMC_23_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_SD_B0_00 for Mode: ALT1"]
+            pub const GPIO_SD_B0_00_ALT1: u32 = 0x01;
         }
     }
 }
@@ -21810,10 +21810,10 @@ pub mod FLEXPWM1_PWMA1_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_08 for Mode: ALT1"]
-            pub const GPIO_AD_B1_08_ALT1: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_24 for Mode: ALT1"]
-            pub const GPIO_EMC_24_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_25 for Mode: ALT1"]
+            pub const GPIO_EMC_25_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_SD_B0_02 for Mode: ALT1"]
+            pub const GPIO_SD_B0_02_ALT1: u32 = 0x01;
         }
     }
 }
@@ -21826,10 +21826,10 @@ pub mod FLEXPWM1_PWMA2_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_10 for Mode: ALT1"]
-            pub const GPIO_AD_B1_10_ALT1: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_22 for Mode: ALT1"]
-            pub const GPIO_EMC_22_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_27 for Mode: ALT1"]
+            pub const GPIO_EMC_27_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_SD_B0_04 for Mode: ALT1"]
+            pub const GPIO_SD_B0_04_ALT1: u32 = 0x01;
         }
     }
 }
@@ -21864,10 +21864,10 @@ pub mod FLEXPWM1_PWMB0_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_07 for Mode: ALT1"]
-            pub const GPIO_AD_B1_07_ALT1: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_27 for Mode: ALT1"]
-            pub const GPIO_EMC_27_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_24 for Mode: ALT1"]
+            pub const GPIO_EMC_24_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_SD_B0_01 for Mode: ALT1"]
+            pub const GPIO_SD_B0_01_ALT1: u32 = 0x01;
         }
     }
 }
@@ -21880,10 +21880,10 @@ pub mod FLEXPWM1_PWMB1_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_09 for Mode: ALT1"]
-            pub const GPIO_AD_B1_09_ALT1: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_25 for Mode: ALT1"]
-            pub const GPIO_EMC_25_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_26 for Mode: ALT1"]
+            pub const GPIO_EMC_26_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_SD_B0_03 for Mode: ALT1"]
+            pub const GPIO_SD_B0_03_ALT1: u32 = 0x01;
         }
     }
 }
@@ -21896,10 +21896,10 @@ pub mod FLEXPWM1_PWMB2_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_11 for Mode: ALT1"]
-            pub const GPIO_AD_B1_11_ALT1: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_23 for Mode: ALT1"]
-            pub const GPIO_EMC_23_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_28 for Mode: ALT1"]
+            pub const GPIO_EMC_28_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_SD_B0_05 for Mode: ALT1"]
+            pub const GPIO_SD_B0_05_ALT1: u32 = 0x01;
         }
     }
 }
@@ -21934,10 +21934,10 @@ pub mod FLEXPWM2_PWMA0_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B0_14 for Mode: ALT4"]
-            pub const GPIO_AD_B0_14_ALT4: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_38 for Mode: ALT1"]
-            pub const GPIO_EMC_38_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_06 for Mode: ALT1"]
+            pub const GPIO_EMC_06_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_06 for Mode: ALT2"]
+            pub const GPIO_B0_06_ALT2: u32 = 0x01;
         }
     }
 }
@@ -21950,10 +21950,10 @@ pub mod FLEXPWM2_PWMA1_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B0_12 for Mode: ALT4"]
-            pub const GPIO_AD_B0_12_ALT4: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_36 for Mode: ALT1"]
-            pub const GPIO_EMC_36_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_08 for Mode: ALT1"]
+            pub const GPIO_EMC_08_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_08 for Mode: ALT2"]
+            pub const GPIO_B0_08_ALT2: u32 = 0x01;
         }
     }
 }
@@ -21966,10 +21966,10 @@ pub mod FLEXPWM2_PWMA2_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B0_10 for Mode: ALT4"]
-            pub const GPIO_AD_B0_10_ALT4: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_30 for Mode: ALT1"]
-            pub const GPIO_EMC_30_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_10 for Mode: ALT1"]
+            pub const GPIO_EMC_10_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_10 for Mode: ALT2"]
+            pub const GPIO_B0_10_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22002,10 +22002,10 @@ pub mod FLEXPWM2_PWMB0_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B0_15 for Mode: ALT4"]
-            pub const GPIO_AD_B0_15_ALT4: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_39 for Mode: ALT1"]
-            pub const GPIO_EMC_39_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_07 for Mode: ALT1"]
+            pub const GPIO_EMC_07_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_07 for Mode: ALT2"]
+            pub const GPIO_B0_07_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22018,10 +22018,10 @@ pub mod FLEXPWM2_PWMB1_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B0_13 for Mode: ALT4"]
-            pub const GPIO_AD_B0_13_ALT4: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_37 for Mode: ALT1"]
-            pub const GPIO_EMC_37_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_09 for Mode: ALT1"]
+            pub const GPIO_EMC_09_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_09 for Mode: ALT2"]
+            pub const GPIO_B0_09_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22034,10 +22034,10 @@ pub mod FLEXPWM2_PWMB2_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B0_11 for Mode: ALT4"]
-            pub const GPIO_AD_B0_11_ALT4: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_31 for Mode: ALT1"]
-            pub const GPIO_EMC_31_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_11 for Mode: ALT1"]
+            pub const GPIO_EMC_11_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_11 for Mode: ALT2"]
+            pub const GPIO_B0_11_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22274,10 +22274,10 @@ pub mod LPI2C1_SCL_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_02 for Mode: ALT6"]
-            pub const GPIO_EMC_02_ALT6: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_AD_B1_14 for Mode: ALT0"]
-            pub const GPIO_AD_B1_14_ALT0: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_04 for Mode: ALT2"]
+            pub const GPIO_SD_B1_04_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B1_00 for Mode: ALT3"]
+            pub const GPIO_AD_B1_00_ALT3: u32 = 0x01;
         }
     }
 }
@@ -22290,10 +22290,10 @@ pub mod LPI2C1_SDA_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_03 for Mode: ALT6"]
-            pub const GPIO_EMC_03_ALT6: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_AD_B1_15 for Mode: ALT0"]
-            pub const GPIO_AD_B1_15_ALT0: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_05 for Mode: ALT2"]
+            pub const GPIO_SD_B1_05_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B1_01 for Mode: ALT3"]
+            pub const GPIO_AD_B1_01_ALT3: u32 = 0x01;
         }
     }
 }
@@ -22306,10 +22306,10 @@ pub mod LPI2C2_SCL_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_08 for Mode: ALT0"]
-            pub const GPIO_AD_B1_08_ALT0: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_19 for Mode: ALT2"]
-            pub const GPIO_EMC_19_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_11 for Mode: ALT3"]
+            pub const GPIO_SD_B1_11_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_04 for Mode: ALT2"]
+            pub const GPIO_B0_04_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22322,10 +22322,10 @@ pub mod LPI2C2_SDA_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_09 for Mode: ALT0"]
-            pub const GPIO_AD_B1_09_ALT0: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_18 for Mode: ALT2"]
-            pub const GPIO_EMC_18_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_10 for Mode: ALT3"]
+            pub const GPIO_SD_B1_10_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_05 for Mode: ALT2"]
+            pub const GPIO_B0_05_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22374,10 +22374,10 @@ pub mod LPI2C4_SCL_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_11 for Mode: ALT2"]
-            pub const GPIO_EMC_11_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_B1_02 for Mode: ALT3"]
-            pub const GPIO_SD_B1_02_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_12 for Mode: ALT2"]
+            pub const GPIO_EMC_12_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_12 for Mode: ALT0"]
+            pub const GPIO_AD_B0_12_ALT0: u32 = 0x01;
         }
     }
 }
@@ -22390,10 +22390,10 @@ pub mod LPI2C4_SDA_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_10 for Mode: ALT2"]
-            pub const GPIO_EMC_10_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_B1_03 for Mode: ALT3"]
-            pub const GPIO_SD_B1_03_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_11 for Mode: ALT2"]
+            pub const GPIO_EMC_11_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_13 for Mode: ALT0"]
+            pub const GPIO_AD_B0_13_ALT0: u32 = 0x01;
         }
     }
 }
@@ -22406,10 +22406,10 @@ pub mod LPSPI1_PCS0_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_03 for Mode: ALT4"]
-            pub const GPIO_SD_B0_03_ALT4: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_AD_B0_11 for Mode: ALT1"]
-            pub const GPIO_AD_B0_11_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B0_01 for Mode: ALT4"]
+            pub const GPIO_SD_B0_01_ALT4: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_EMC_30 for Mode: ALT3"]
+            pub const GPIO_EMC_30_ALT3: u32 = 0x01;
         }
     }
 }
@@ -22422,10 +22422,10 @@ pub mod LPSPI1_SCK_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_06 for Mode: ALT0"]
-            pub const GPIO_AD_06_ALT0: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_08 for Mode: ALT2"]
-            pub const GPIO_SD_08_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_27 for Mode: ALT3"]
+            pub const GPIO_EMC_27_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_SD_B0_00 for Mode: ALT4"]
+            pub const GPIO_SD_B0_00_ALT4: u32 = 0x01;
         }
     }
 }
@@ -22438,10 +22438,10 @@ pub mod LPSPI1_SDI_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_03 for Mode: ALT0"]
-            pub const GPIO_AD_03_ALT0: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_05 for Mode: ALT2"]
-            pub const GPIO_SD_05_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_29 for Mode: ALT3"]
+            pub const GPIO_EMC_29_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_03 for Mode: ALT4"]
+            pub const GPIO_SD_B0_03_ALT4: u32 = 0x01;
         }
     }
 }
@@ -22454,10 +22454,10 @@ pub mod LPSPI1_SDO_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_04 for Mode: ALT0"]
-            pub const GPIO_AD_04_ALT0: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_06 for Mode: ALT2"]
-            pub const GPIO_SD_06_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_28 for Mode: ALT3"]
+            pub const GPIO_EMC_28_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_SD_B0_02 for Mode: ALT4"]
+            pub const GPIO_SD_B0_02_ALT4: u32 = 0x01;
         }
     }
 }
@@ -22486,10 +22486,10 @@ pub mod LPSPI2_SCK_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_12 for Mode: ALT0"]
-            pub const GPIO_AD_12_ALT0: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_11 for Mode: ALT1"]
-            pub const GPIO_SD_11_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_07 for Mode: ALT4"]
+            pub const GPIO_SD_B1_07_ALT4: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_EMC_00 for Mode: ALT2"]
+            pub const GPIO_EMC_00_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22502,10 +22502,10 @@ pub mod LPSPI2_SDI_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_09 for Mode: ALT0"]
-            pub const GPIO_AD_09_ALT0: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_09 for Mode: ALT1"]
-            pub const GPIO_SD_09_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_09 for Mode: ALT4"]
+            pub const GPIO_SD_B1_09_ALT4: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_EMC_03 for Mode: ALT2"]
+            pub const GPIO_EMC_03_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22518,10 +22518,10 @@ pub mod LPSPI2_SDO_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_10 for Mode: ALT0"]
-            pub const GPIO_AD_10_ALT0: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_10 for Mode: ALT1"]
-            pub const GPIO_SD_10_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_08 for Mode: ALT4"]
+            pub const GPIO_SD_B1_08_ALT4: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_EMC_02 for Mode: ALT2"]
+            pub const GPIO_EMC_02_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22598,10 +22598,10 @@ pub mod LPSPI4_PCS0_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_03 for Mode: ALT2"]
-            pub const GPIO_AD_B1_03_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_33 for Mode: ALT4"]
-            pub const GPIO_EMC_33_ALT4: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B0_00 for Mode: ALT3"]
+            pub const GPIO_B0_00_ALT3: u32 = 0;
+            #[doc = "Selecting Pad:GPIO_B1_04 for Mode: ALT1"]
+            pub const GPIO_B1_04_ALT1: u32 = 0x01;
         }
     }
 }
@@ -22614,10 +22614,10 @@ pub mod LPSPI4_SCK_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_02 for Mode: ALT2"]
-            pub const GPIO_AD_B1_02_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_32 for Mode: ALT4"]
-            pub const GPIO_EMC_32_ALT4: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B0_03 for Mode: ALT3"]
+            pub const GPIO_B0_03_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B1_07 for Mode: ALT1"]
+            pub const GPIO_B1_07_ALT1: u32 = 0x01;
         }
     }
 }
@@ -22630,10 +22630,10 @@ pub mod LPSPI4_SDI_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_05 for Mode: ALT2"]
-            pub const GPIO_AD_B1_05_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_35 for Mode: ALT4"]
-            pub const GPIO_EMC_35_ALT4: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B0_01 for Mode: ALT3"]
+            pub const GPIO_B0_01_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B1_05 for Mode: ALT1"]
+            pub const GPIO_B1_05_ALT1: u32 = 0x01;
         }
     }
 }
@@ -22646,10 +22646,10 @@ pub mod LPSPI4_SDO_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_04 for Mode: ALT2"]
-            pub const GPIO_AD_B1_04_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_34 for Mode: ALT4"]
-            pub const GPIO_EMC_34_ALT4: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B0_02 for Mode: ALT3"]
+            pub const GPIO_B0_02_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B1_06 for Mode: ALT1"]
+            pub const GPIO_B1_06_ALT1: u32 = 0x01;
         }
     }
 }
@@ -22662,10 +22662,10 @@ pub mod LPUART2_RX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_09 for Mode: ALT2"]
-            pub const GPIO_AD_B1_09_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_23 for Mode: ALT2"]
-            pub const GPIO_EMC_23_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_10 for Mode: ALT2"]
+            pub const GPIO_SD_B1_10_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B1_03 for Mode: ALT2"]
+            pub const GPIO_AD_B1_03_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22678,10 +22678,10 @@ pub mod LPUART2_TX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_08 for Mode: ALT2"]
-            pub const GPIO_AD_B1_08_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_22 for Mode: ALT2"]
-            pub const GPIO_EMC_22_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_11 for Mode: ALT2"]
+            pub const GPIO_SD_B1_11_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B1_02 for Mode: ALT2"]
+            pub const GPIO_AD_B1_02_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22746,12 +22746,12 @@ pub mod LPUART4_RX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_03 for Mode: ALT2"]
-            pub const GPIO_EMC_03_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_AD_B1_11 for Mode: ALT2"]
-            pub const GPIO_AD_B1_11_ALT2: u32 = 0x01;
-            #[doc = "Selecting Pad: GPIO_EMC_33 for Mode: ALT2"]
-            pub const GPIO_EMC_33_ALT2: u32 = 0x02;
+            #[doc = "Selecting Pad: GPIO_SD_B1_01 for Mode: ALT4"]
+            pub const GPIO_SD_B1_01_ALT4: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_EMC_20 for Mode: ALT2"]
+            pub const GPIO_EMC_20_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B1_01 for Mode: ALT2"]
+            pub const GPIO_B1_01_ALT2: u32 = 0x02;
         }
     }
 }
@@ -22764,12 +22764,12 @@ pub mod LPUART4_TX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_02 for Mode: ALT2"]
-            pub const GPIO_EMC_02_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_AD_B1_10 for Mode: ALT2"]
-            pub const GPIO_AD_B1_10_ALT2: u32 = 0x01;
-            #[doc = "Selecting Pad: GPIO_EMC_32 for Mode: ALT2"]
-            pub const GPIO_EMC_32_ALT2: u32 = 0x02;
+            #[doc = "Selecting Pad: GPIO_SD_B1_00 for Mode: ALT4"]
+            pub const GPIO_SD_B1_00_ALT4: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_EMC_19 for Mode: ALT2"]
+            pub const GPIO_EMC_19_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B1_00 for Mode: ALT2"]
+            pub const GPIO_B1_00_ALT2: u32 = 0x02;
         }
     }
 }
@@ -22782,10 +22782,10 @@ pub mod LPUART5_RX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B0_11 for Mode: ALT2"]
-            pub const GPIO_AD_B0_11_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_39 for Mode: ALT2"]
-            pub const GPIO_EMC_39_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_24 for Mode: ALT2"]
+            pub const GPIO_EMC_24_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B1_13 for Mode: ALT1"]
+            pub const GPIO_B1_13_ALT1: u32 = 0x01;
         }
     }
 }
@@ -22798,10 +22798,10 @@ pub mod LPUART5_TX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B0_10 for Mode: ALT2"]
-            pub const GPIO_AD_B0_10_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_38 for Mode: ALT2"]
-            pub const GPIO_EMC_38_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_23 for Mode: ALT2"]
+            pub const GPIO_EMC_23_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B1_12 for Mode: ALT1"]
+            pub const GPIO_B1_12_ALT1: u32 = 0x01;
         }
     }
 }
@@ -22814,10 +22814,10 @@ pub mod LPUART6_RX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_13 for Mode: ALT2"]
-            pub const GPIO_EMC_13_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_B1_01 for Mode: ALT2"]
-            pub const GPIO_SD_B1_01_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_26 for Mode: ALT2"]
+            pub const GPIO_EMC_26_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_03 for Mode: ALT2"]
+            pub const GPIO_AD_B0_03_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22830,10 +22830,10 @@ pub mod LPUART6_TX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_12 for Mode: ALT2"]
-            pub const GPIO_EMC_12_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_SD_B1_00 for Mode: ALT2"]
-            pub const GPIO_SD_B1_00_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_25 for Mode: ALT2"]
+            pub const GPIO_EMC_25_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_02 for Mode: ALT2"]
+            pub const GPIO_AD_B0_02_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22846,10 +22846,10 @@ pub mod LPUART7_RX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_05 for Mode: ALT2"]
-            pub const GPIO_SD_B0_05_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_35 for Mode: ALT2"]
-            pub const GPIO_EMC_35_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_09 for Mode: ALT2"]
+            pub const GPIO_SD_B1_09_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_EMC_32 for Mode: ALT2"]
+            pub const GPIO_EMC_32_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22862,10 +22862,10 @@ pub mod LPUART7_TX_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_04 for Mode: ALT2"]
-            pub const GPIO_SD_B0_04_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_34 for Mode: ALT2"]
-            pub const GPIO_EMC_34_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_08 for Mode: ALT2"]
+            pub const GPIO_SD_B1_08_ALT2: u32 = 0;
+            #[doc = "Selecting Pad:GPIO_EMC_31 for Mode: ALT2"]
+            pub const GPIO_EMC_31_ALT2: u32 = 0x01;
         }
     }
 }
@@ -22914,8 +22914,8 @@ pub mod NMI_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B0_05 for Mode: ALT7"]
-            pub const GPIO_AD_B0_05_ALT7: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_12 for Mode: ALT7"]
+            pub const GPIO_AD_B0_12_ALT7: u32 = 0;
             #[doc = "Selecting Pad: WAKEUP for Mode: ALT7"]
             pub const WAKEUP_ALT7: u32 = 0x01;
         }
@@ -23084,12 +23084,12 @@ pub mod SAI1_RX_BCLK_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_06 for Mode: ALT3"]
-            pub const GPIO_AD_B1_06_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_14 for Mode: ALT3"]
-            pub const GPIO_EMC_14_ALT3: u32 = 0x01;
-            #[doc = "Selecting Pad: GPIO_EMC_19 for Mode: ALT3"]
-            pub const GPIO_EMC_19_ALT3: u32 = 0x02;
+            #[doc = "Selecting Pad: GPIO_SD_B1_05 for Mode: ALT3"]
+            pub const GPIO_SD_B1_05_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B1_11 for Mode: ALT3"]
+            pub const GPIO_AD_B1_11_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B0_15 for Mode: ALT3"]
+            pub const GPIO_B0_15_ALT3: u32 = 0x02;
         }
     }
 }
@@ -23102,12 +23102,12 @@ pub mod SAI1_RX_DATA0_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_13 for Mode: ALT3"]
-            pub const GPIO_EMC_13_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_AD_B1_05 for Mode: ALT3"]
-            pub const GPIO_AD_B1_05_ALT3: u32 = 0x01;
-            #[doc = "Selecting Pad: GPIO_EMC_21 for Mode: ALT3"]
-            pub const GPIO_EMC_21_ALT3: u32 = 0x02;
+            #[doc = "Selecting Pad: GPIO_SD_B1_06 for Mode: ALT3"]
+            pub const GPIO_SD_B1_06_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B1_12 for Mode: ALT3"]
+            pub const GPIO_AD_B1_12_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B1_00 for Mode: ALT3"]
+            pub const GPIO_B1_00_ALT3: u32 = 0x02;
         }
     }
 }
@@ -23120,10 +23120,10 @@ pub mod SAI1_RX_DATA1_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_09 for Mode: ALT3"]
-            pub const GPIO_AD_B1_09_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_22 for Mode: ALT3"]
-            pub const GPIO_EMC_22_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_00 for Mode: ALT3"]
+            pub const GPIO_SD_B1_00_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_10 for Mode: ALT3"]
+            pub const GPIO_B0_10_ALT3: u32 = 0x01;
         }
     }
 }
@@ -23136,10 +23136,10 @@ pub mod SAI1_RX_DATA2_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_08 for Mode: ALT3"]
-            pub const GPIO_AD_B1_08_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_23 for Mode: ALT3"]
-            pub const GPIO_EMC_23_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_01 for Mode: ALT3"]
+            pub const GPIO_SD_B1_01_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_11 for Mode: ALT3"]
+            pub const GPIO_B0_11_ALT3: u32 = 0x01;
         }
     }
 }
@@ -23152,10 +23152,10 @@ pub mod SAI1_RX_DATA3_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_07 for Mode: ALT3"]
-            pub const GPIO_AD_B1_07_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_24 for Mode: ALT3"]
-            pub const GPIO_EMC_24_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_SD_B1_02 for Mode: ALT3"]
+            pub const GPIO_SD_B1_02_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B0_12 for Mode: ALT3"]
+            pub const GPIO_B0_12_ALT3: u32 = 0x01;
         }
     }
 }
@@ -23168,12 +23168,12 @@ pub mod SAI1_RX_SYNC_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_04 for Mode: ALT3"]
-            pub const GPIO_AD_B1_04_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_15 for Mode: ALT3"]
-            pub const GPIO_EMC_15_ALT3: u32 = 0x01;
-            #[doc = "Selecting Pad: GPIO_EMC_18 for Mode: ALT3"]
-            pub const GPIO_EMC_18_ALT3: u32 = 0x02;
+            #[doc = "Selecting Pad: GPIO_SD_B1_04 for Mode: ALT3"]
+            pub const GPIO_SD_B1_04_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B1_10 for Mode: ALT3"]
+            pub const GPIO_AD_B1_10_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B0_14 for Mode: ALT3"]
+            pub const GPIO_B0_14_ALT3: u32 = 0x02;
         }
     }
 }
@@ -23186,12 +23186,12 @@ pub mod SAI1_TX_BCLK_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_11 for Mode: ALT3"]
-            pub const GPIO_EMC_11_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_AD_B1_01 for Mode: ALT3"]
-            pub const GPIO_AD_B1_01_ALT3: u32 = 0x01;
-            #[doc = "Selecting Pad: GPIO_EMC_26 for Mode: ALT3"]
-            pub const GPIO_EMC_26_ALT3: u32 = 0x02;
+            #[doc = "Selecting Pad: GPIO_SD_B1_08 for Mode: ALT3"]
+            pub const GPIO_SD_B1_08_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B1_14 for Mode: ALT3"]
+            pub const GPIO_AD_B1_14_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B1_02 for Mode: ALT3"]
+            pub const GPIO_B1_02_ALT3: u32 = 0x02;
         }
     }
 }
@@ -23204,12 +23204,12 @@ pub mod SAI1_TX_SYNC_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_10 for Mode: ALT3"]
-            pub const GPIO_EMC_10_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_AD_B1_02 for Mode: ALT3"]
-            pub const GPIO_AD_B1_02_ALT3: u32 = 0x01;
-            #[doc = "Selecting Pad: GPIO_EMC_27 for Mode: ALT3"]
-            pub const GPIO_EMC_27_ALT3: u32 = 0x02;
+            #[doc = "Selecting Pad: GPIO_SD_B1_09 for Mode: ALT3"]
+            pub const GPIO_SD_B1_09_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B1_15 for Mode: ALT3"]
+            pub const GPIO_AD_B1_15_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_B1_03 for Mode: ALT3"]
+            pub const GPIO_B1_03_ALT3: u32 = 0x02;
         }
     }
 }
@@ -23238,10 +23238,10 @@ pub mod SAI2_RX_BCLK_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_02 for Mode: ALT3"]
-            pub const GPIO_SD_B0_02_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_09 for Mode: ALT3"]
-            pub const GPIO_EMC_09_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_10 for Mode: ALT2"]
+            pub const GPIO_EMC_10_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_06 for Mode: ALT3"]
+            pub const GPIO_AD_B0_06_ALT3: u32 = 0x01;
         }
     }
 }
@@ -23254,10 +23254,10 @@ pub mod SAI2_RX_DATA0_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_03 for Mode: ALT3"]
-            pub const GPIO_SD_B0_03_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_08 for Mode: ALT3"]
-            pub const GPIO_EMC_08_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_08 for Mode: ALT2"]
+            pub const GPIO_EMC_08_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_08 for Mode: ALT3"]
+            pub const GPIO_AD_B0_08_ALT3: u32 = 0x01;
         }
     }
 }
@@ -23270,10 +23270,10 @@ pub mod SAI2_RX_SYNC_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_01 for Mode: ALT3"]
-            pub const GPIO_SD_B0_01_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_07 for Mode: ALT3"]
-            pub const GPIO_EMC_07_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_09 for Mode: ALT2"]
+            pub const GPIO_EMC_09_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_07 for Mode: ALT3"]
+            pub const GPIO_AD_B0_07_ALT3: u32 = 0x01;
         }
     }
 }
@@ -23286,10 +23286,10 @@ pub mod SAI2_TX_BCLK_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_05 for Mode: ALT3"]
-            pub const GPIO_SD_B0_05_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_04 for Mode: ALT3"]
-            pub const GPIO_EMC_04_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_06 for Mode: ALT2"]
+            pub const GPIO_EMC_06_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_05 for Mode: ALT3"]
+            pub const GPIO_AD_B0_05_ALT3: u32 = 0x01;
         }
     }
 }
@@ -23302,10 +23302,10 @@ pub mod SAI2_TX_SYNC_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_06 for Mode: ALT3"]
-            pub const GPIO_SD_B0_06_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_05 for Mode: ALT3"]
-            pub const GPIO_EMC_05_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_05 for Mode: ALT2"]
+            pub const GPIO_EMC_05_ALT2: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_04 for Mode: ALT3"]
+            pub const GPIO_AD_B0_04_ALT3: u32 = 0x01;
         }
     }
 }
@@ -23318,10 +23318,10 @@ pub mod SPDIF_IN_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_05 for Mode: ALT2"]
-            pub const GPIO_EMC_05_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_41 for Mode: ALT2"]
-            pub const GPIO_EMC_41_ALT2: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_AD_B1_03 for Mode: ALT3"]
+            pub const GPIO_AD_B1_03_ALT3: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_EMC_16 for Mode: ALT3"]
+            pub const GPIO_EMC_16_ALT3: u32 = 0x01;
         }
     }
 }
@@ -23580,10 +23580,10 @@ pub mod USDHC2_WP_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_AD_B1_13 for Mode: ALT3"]
-            pub const GPIO_AD_B1_13_ALT3: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_35 for Mode: ALT3"]
-            pub const GPIO_EMC_35_ALT3: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_37 for Mode: ALT6"]
+            pub const GPIO_EMC_37_ALT6: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B1_10 for Mode: ALT6"]
+            pub const GPIO_AD_B1_10_ALT6: u32 = 0x01;
         }
     }
 }
@@ -23744,10 +23744,10 @@ pub mod XBAR1_IN18_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_28 for Mode: ALT2"]
-            pub const GPIO_EMC_28_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_40 for Mode: ALT1"]
-            pub const GPIO_EMC_40_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_35 for Mode: ALT1"]
+            pub const GPIO_EMC_35_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_06 for Mode: ALT6"]
+            pub const GPIO_AD_B0_06_ALT6: u32 = 0x01;
         }
     }
 }
@@ -23824,10 +23824,10 @@ pub mod XBAR1_IN14_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_00 for Mode: ALT7"]
-            pub const GPIO_SD_B0_00_ALT7: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_14 for Mode: ALT1"]
-            pub const GPIO_EMC_14_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_AD_B0_00 for Mode: ALT1"]
+            pub const GPIO_AD_B0_00_ALT1: u32 = 0;
+            #[doc = "Selecting Pad:GPIO_B1_00 for Mode: ALT1"]
+            pub const GPIO_B1_00_ALT1: u32 = 0x01;
         }
     }
 }
@@ -23840,10 +23840,10 @@ pub mod XBAR1_IN15_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_01 for Mode: ALT7"]
-            pub const GPIO_SD_B0_01_ALT7: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_15 for Mode: ALT1"]
-            pub const GPIO_EMC_15_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_AD_B0_01 for Mode: ALT1"]
+            pub const GPIO_AD_B0_01_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B1_01 for Mode: ALT1"]
+            pub const GPIO_B1_01_ALT1: u32 = 0x01;
         }
     }
 }
@@ -23856,10 +23856,10 @@ pub mod XBAR1_IN16_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_SD_B0_02 for Mode: ALT7"]
-            pub const GPIO_SD_B0_02_ALT7: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_18 for Mode: ALT1"]
-            pub const GPIO_EMC_18_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_AD_B0_02 for Mode: ALT1"]
+            pub const GPIO_AD_B0_02_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_B1_02 for Mode: ALT1"]
+            pub const GPIO_B1_02_ALT1: u32 = 0x01;
         }
     }
 }
@@ -23888,10 +23888,10 @@ pub mod XBAR1_IN19_SELECT_INPUT {
         pub mod R {}
         pub mod W {}
         pub mod RW {
-            #[doc = "Selecting Pad: GPIO_EMC_29 for Mode: ALT2"]
-            pub const GPIO_EMC_29_ALT2: u32 = 0;
-            #[doc = "Selecting Pad: GPIO_EMC_41 for Mode: ALT1"]
-            pub const GPIO_EMC_41_ALT1: u32 = 0x01;
+            #[doc = "Selecting Pad: GPIO_EMC_14 for Mode: ALT1"]
+            pub const GPIO_EMC_14_ALT1: u32 = 0;
+            #[doc = "Selecting Pad: GPIO_AD_B0_07 for Mode: ALT6"]
+            pub const GPIO_AD_B0_07_ALT6: u32 = 0x01;
         }
     }
 }
